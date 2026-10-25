@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" width="400" height="280">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- x-axis -->
+  <line x1="30" y1="190" x2="360" y2="190" stroke="#000000" stroke-width="1.8" />
+  <polygon points="360,190 348,185 348,195" fill="#000000" />
+  <text x="372" y="196" font-family="'Times New Roman', Cambria, STIXGeneral, serif" font-size="20" font-style="italic" fill="#000000">x</text>
+
+  <!-- y-axis (f''(x)) -->
+  <line x1="240" y1="255" x2="240" y2="32" stroke="#000000" stroke-width="1.8" />
+  <polygon points="240,32 235,44 245,44" fill="#000000" />
+  <text x="252" y="40" font-family="'Times New Roman', Cambria, STIXGeneral, serif" font-size="20" fill="#000000"><tspan font-style="italic">f</tspan><tspan font-style="normal">″(</tspan><tspan font-style="italic">x</tspan><tspan font-style="normal">)</tspan></text>
+
+  <!-- Origin O -->
+  <text x="220" y="214" font-family="'Times New Roman', Cambria, STIXGeneral, serif" font-size="20" font-style="italic" fill="#000000">O</text>
+
+  <!-- Left curve: tangent to x-axis at (135, 190) -->
+  <path d="M 65,75 C 85,190 115,190 135,190 C 155,190 185,190 205,75" fill="none" stroke="#000000" stroke-width="2.2" stroke-linecap="round" />
+
+  <!-- Right curve: vertical asymptote at x=240, crosses x-axis at ~264, concave down -->
+  <path d="M 255,255 C 257,205 275,115 340,80" fill="none" stroke="#000000" stroke-width="2.2" stroke-linecap="round" />
+</svg>
