@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 170" width="260" height="170" style="background: white; font-family: 'Times New Roman', Cambria, STIXGeneral, serif;">
+  <!-- 坐标轴 -->
+  <line x1="20" y1="110" x2="225" y2="110" stroke="#000" stroke-width="1.4" />
+  <polygon points="223,107 232,110 223,113" fill="#000" />
+  <text x="236" y="114" font-size="16" font-style="italic">x</text>
+
+  <line x1="80" y1="160" x2="80" y2="25" stroke="#000" stroke-width="1.4" />
+  <polygon points="77,27 80,18 83,27" fill="#000" />
+  <text x="88" y="27" font-size="16" font-style="italic">F(x)</text>
+
+  <text x="66" y="125" font-size="15" font-style="italic">O</text>
+
+  <!-- 刻度 -->
+  <line x1="45" y1="107" x2="45" y2="113" stroke="#000" stroke-width="1.2" />
+  <text x="35" y="126" font-size="14">-1</text>
+
+  <line x1="115" y1="107" x2="115" y2="113" stroke="#000" stroke-width="1.2" />
+  <text x="112" y="126" font-size="14">1</text>
+
+  <line x1="150" y1="107" x2="150" y2="113" stroke="#000" stroke-width="1.2" />
+  <text x="147" y="126" font-size="14">2</text>
+
+  <line x1="185" y1="107" x2="185" y2="113" stroke="#000" stroke-width="1.2" />
+  <text x="182" y="126" font-size="14">3</text>
+
+  <line x1="77" y1="80" x2="83" y2="80" stroke="#000" stroke-width="1.2" />
+  <text x="69" y="85" font-size="14">1</text>
+
+  <!-- 曲线 -->
+  <line x1="45" y1="110" x2="80" y2="80" stroke="#000" stroke-width="1.8" />
+  <path d="M 80 80 C 90 92, 103 100, 115 100 C 127 100, 141 80, 150 63" stroke="#000" stroke-width="1.8" fill="none" />
+  <line x1="150" y1="63" x2="185" y2="63" stroke="#000" stroke-width="1.8" />
+</svg>

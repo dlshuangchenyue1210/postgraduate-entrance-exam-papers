@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 180" width="380" height="180" style="background: white; font-family: Times New Roman, Cambria, STIXGeneral, serif;">
+  <!-- 坐标轴 -->
+  <!-- X 轴 -->
+  <line x1="25" y1="115" x2="342" y2="115" stroke="#000" stroke-width="1.5" />
+  <polygon points="340,111.5 350,115 340,118.5" fill="#000" />
+  <text x="356" y="120" font-size="18" font-style="italic">x</text>
+
+  <!-- Y 轴 -->
+  <line x1="180" y1="120" x2="180" y2="22" stroke="#000" stroke-width="1.5" />
+  <polygon points="176.5,24 180,14 183.5,24" fill="#000" />
+  <text x="190" y="22" font-size="18" font-style="italic">y</text>
+
+  <!-- 刻度线 -->
+  <line x1="48" y1="115" x2="48" y2="110" stroke="#000" stroke-width="1.2" />
+  <line x1="92" y1="115" x2="92" y2="110" stroke="#000" stroke-width="1.2" />
+  <line x1="136" y1="115" x2="136" y2="110" stroke="#000" stroke-width="1.2" />
+  <line x1="224" y1="115" x2="224" y2="110" stroke="#000" stroke-width="1.2" />
+  <line x1="268" y1="115" x2="268" y2="110" stroke="#000" stroke-width="1.2" />
+  <line x1="312" y1="115" x2="312" y2="110" stroke="#000" stroke-width="1.2" />
+
+  <!-- 曲线 y = f(x) -->
+  <path d="M 48,115 A 22,22 0 0,1 92,115 A 44,44 0 0,0 180,115 A 44,44 0 0,1 268,115 A 22,22 0 0,0 312,115" stroke="#000" stroke-width="1.8" fill="none" />
+
+  <!-- 刻度标注 -->
+  <text x="42" y="132" font-size="16" text-anchor="middle">-3</text>
+  <text x="86" y="132" font-size="16" text-anchor="middle">-2</text>
+  <text x="136" y="132" font-size="16" text-anchor="middle">-1</text>
+  <text x="173" y="132" font-size="17" font-style="italic" text-anchor="end">O</text>
+  <text x="224" y="132" font-size="16" text-anchor="middle">1</text>
+  <text x="264" y="132" font-size="16" text-anchor="middle">2</text>
+  <text x="316" y="132" font-size="16" text-anchor="middle">3</text>
+</svg>

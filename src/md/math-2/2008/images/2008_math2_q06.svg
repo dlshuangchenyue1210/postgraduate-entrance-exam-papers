@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 280" width="350" height="280" style="background: white; font-family: Times New Roman, Cambria, STIXGeneral, serif;">
+  <!-- 阴影区域 D_uv -->
+  <path d="M 155 220 L 215 220 A 135 135 0 0 0 196.91 152.5 L 144.95 182.5 A 75 75 0 0 1 155 220 Z" fill="#bfbfbf" stroke="none" />
+
+  <!-- 坐标轴 -->
+  <!-- X 轴 -->
+  <line x1="50" y1="220" x2="285" y2="220" stroke="#000" stroke-width="1.8" />
+  <polygon points="283,216 293,220 283,224" fill="#000" />
+  <text x="298" y="226" font-size="20" font-style="italic">x</text>
+
+  <!-- Y 轴 -->
+  <line x1="80" y1="245" x2="80" y2="35" stroke="#000" stroke-width="1.8" />
+  <polygon points="76,37 80,27 84,37" fill="#000" />
+  <text x="88" y="37" font-size="20" font-style="italic">y</text>
+
+  <!-- 原点 O -->
+  <text x="60" y="236" font-size="19" font-style="italic">O</text>
+
+  <!-- 内圆弧 (半径 75) -->
+  <path d="M 80 145 A 75 75 0 0 1 155 220" stroke="#000" stroke-width="1.5" fill="none" />
+
+  <!-- 外圆弧 (半径 135) -->
+  <path d="M 80 85 A 135 135 0 0 1 215 220" stroke="#000" stroke-width="1.5" fill="none" />
+
+  <!-- 射线 (过原点，倾角 v) -->
+  <line x1="80" y1="220" x2="208" y2="146.1" stroke="#000" stroke-width="1.4" />
+
+  <!-- 角度 v 弧线 -->
+  <path d="M 108 220 A 28 28 0 0 0 104.25 206" stroke="#000" stroke-width="1.2" fill="none" />
+  <text x="114" y="214" font-size="17" font-style="italic">v</text>
+
+  <!-- 区域标注 D_uv -->
+  <text x="180" y="195" font-size="18" font-style="italic">D<tspan font-size="12" font-style="italic" dy="5">uv</tspan></text>
+
+  <!-- 曲线方程标注 -->
+  <text x="82" y="128" font-size="16" font-style="italic">x<tspan font-size="11" dy="-5">2</tspan><tspan font-size="16" dy="5">+y</tspan><tspan font-size="11" dy="-5">2</tspan><tspan font-size="16" dy="5">=1</tspan></text>
+  <text x="135" y="82" font-size="16" font-style="italic">x<tspan font-size="11" dy="-5">2</tspan><tspan font-size="16" dy="5">+y</tspan><tspan font-size="11" dy="-5">2</tspan><tspan font-size="16" dy="5">=u</tspan><tspan font-size="11" dy="-5">2</tspan></text>
+</svg>

@@ -1,0 +1,15 @@
+# 默认忽略仓库内全部内容
+*
+
+# 放行所有目录（仅用于让 Git 进入子目录，目录本身不产生提交）
+!*/
+
+# 放行版本控制配置文件自身
+!.gitignore
+!.gitattributes
+
+# 放行 README.md
+!README.md
+
+# 放行 src/ 全部内容
+!src/**

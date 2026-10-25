@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" width="360" height="250" style="background: white; font-family: Times New Roman, Cambria, STIXGeneral, serif;">
+  <!-- 坐标轴 -->
+  <!-- X 轴 -->
+  <line x1="65" y1="200" x2="295" y2="200" stroke="#000" stroke-width="1.8" />
+  <polygon points="293,196 303,200 293,204" fill="#000" />
+  <text x="308" y="206" font-size="20" font-style="italic">x</text>
+
+  <!-- Y 轴 -->
+  <line x1="95" y1="225" x2="95" y2="30" stroke="#000" stroke-width="1.8" />
+  <polygon points="91,32 95,22 99,32" fill="#000" />
+  <text x="103" y="32" font-size="20" font-style="italic">y</text>
+
+  <!-- 原点 O -->
+  <text x="75" y="216" font-size="19" font-style="italic">O</text>
+
+  <!-- 矩形线段 CA 和 AB -->
+  <!-- CA: y = f(a) -->
+  <line x1="95" y1="75" x2="245" y2="75" stroke="#000" stroke-width="1.4" />
+  <!-- AB: x = a -->
+  <line x1="245" y1="75" x2="245" y2="200" stroke="#000" stroke-width="1.4" />
+
+  <!-- 弦 DA (直线) -->
+  <line x1="95" y1="155" x2="245" y2="75" stroke="#000" stroke-width="1.4" />
+
+  <!-- 曲线 y = f(x) -->
+  <path d="M 95 155 C 115 105, 165 77, 245 75" stroke="#000" stroke-width="1.5" fill="none" />
+
+  <!-- 曲线标注 y = f(x) -->
+  <text x="100" y="98" font-size="17" font-style="italic">y=f(x)</text>
+
+  <!-- 各点标注 -->
+  <!-- C(0, f(a)) -->
+  <text x="86" y="81" font-size="18" font-style="italic" text-anchor="end">C(0, f(a))</text>
+
+  <!-- D 点 -->
+  <text x="86" y="161" font-size="19" font-style="italic" text-anchor="end">D</text>
+
+  <!-- A(a, f(a)) 点 -->
+  <text x="242" y="65" font-size="18" font-style="italic" text-anchor="middle">A(a, f(a))</text>
+
+  <!-- B(a, 0) 点 -->
+  <text x="245" y="224" font-size="18" font-style="italic" text-anchor="middle">B(a, 0)</text>
+</svg>

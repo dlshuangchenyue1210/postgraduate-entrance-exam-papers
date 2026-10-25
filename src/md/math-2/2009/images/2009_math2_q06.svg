@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 180" width="260" height="180" style="background: white; font-family: 'Times New Roman', Cambria, STIXGeneral, serif;">
+  <!-- 坐标轴 -->
+  <line x1="20" y1="120" x2="230" y2="120" stroke="#000" stroke-width="1.4" />
+  <polygon points="228,117 237,120 228,123" fill="#000" />
+  <text x="240" y="124" font-size="16" font-style="italic">x</text>
+  
+  <line x1="80" y1="170" x2="80" y2="25" stroke="#000" stroke-width="1.4" />
+  <polygon points="77,27 80,18 83,27" fill="#000" />
+  <text x="88" y="27" font-size="17" font-style="italic">f(x)</text>
+
+  <!-- 原点 -->
+  <text x="64" y="135" font-size="16" font-style="italic">O</text>
+
+  <!-- x 轴刻度 -->
+  <line x1="45" y1="117" x2="45" y2="123" stroke="#000" stroke-width="1.2" />
+  <text x="35" y="136" font-size="15">-1</text>
+
+  <line x1="115" y1="117" x2="115" y2="123" stroke="#000" stroke-width="1.2" />
+  <text x="111" y="136" font-size="15">1</text>
+
+  <line x1="150" y1="117" x2="150" y2="123" stroke="#000" stroke-width="1.2" />
+  <text x="146" y="136" font-size="15">2</text>
+
+  <line x1="185" y1="117" x2="185" y2="123" stroke="#000" stroke-width="1.2" />
+  <text x="181" y="136" font-size="15">3</text>
+
+  <!-- y 轴刻度 -->
+  <line x1="77" y1="150" x2="83" y2="150" stroke="#000" stroke-width="1.2" />
+  <text x="58" y="155" font-size="15">-1</text>
+
+  <line x1="77" y1="90" x2="83" y2="90" stroke="#000" stroke-width="1.2" />
+  <text x="88" y="95" font-size="15">1</text>
+
+  <line x1="77" y1="60" x2="83" y2="60" stroke="#000" stroke-width="1.2" />
+  <text x="68" y="65" font-size="15">2</text>
+
+  <!-- 曲线与虚线 -->
+  <line x1="45" y1="90" x2="45" y2="120" stroke="#000" stroke-width="1.2" stroke-dasharray="4,3" />
+  <line x1="45" y1="90" x2="77" y2="90" stroke="#000" stroke-width="1.8" />
+  <circle cx="80" cy="90" r="2.8" fill="#fff" stroke="#000" stroke-width="1.5" />
+
+  <path d="M 80 150 C 98 150, 132 100, 150 60" stroke="#000" stroke-width="1.8" fill="none" />
+  <circle cx="150" cy="60" r="2.2" fill="#000" />
+
+  <line x1="150" y1="60" x2="150" y2="120" stroke="#000" stroke-width="1.2" stroke-dasharray="4,3" />
+  <circle cx="150" cy="120" r="2.8" fill="#fff" stroke="#000" stroke-width="1.5" />
+
+  <line x1="153" y1="120" x2="185" y2="120" stroke="#000" stroke-width="2.6" />
+</svg>
